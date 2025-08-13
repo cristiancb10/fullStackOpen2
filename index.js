@@ -3,7 +3,10 @@ const morgan = require('morgan')
 const app = express()
 
 app.use(express.json())
-app.use(morgan('tiny'))
+
+morgan.token('body', (request, res) => JSON.stringify(request.body))
+
+app.use(morgan(`:method :url :status :res[content-length] - :response-time ms :body`))
 
 let persons = [
     {
@@ -90,7 +93,7 @@ app.post('/api/persons', (request, response) => {
             error: "number missing"
         })
     }
-
+    
     const personFound = persons.find(person => person.name.toLowerCase() === body.name.toLowerCase())  
     if(personFound) {
         return response.status(400).json({
