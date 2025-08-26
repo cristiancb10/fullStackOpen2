@@ -21,7 +21,7 @@ Este es el backend del proyecto **Phonebook**, desarrollado como parte del curso
 
 2. Instalar dependencias:
    ```bash
-  npm install
+   npm install
 
 3. Iniciar el servidor en modo desarrollo:
    ```bash
