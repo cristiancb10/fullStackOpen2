@@ -2,8 +2,11 @@
 
 Este es el backend del proyecto **Phonebook**, desarrollado como parte del curso [Full Stack Open](https://fullstackopen.com/).
 
-## URL de la aplicación desplegada
+## URL de la aplicación desplegada del backend
 [https://phonebook-ilw7.onrender.com/api/persons](https://phonebook-ilw7.onrender.com/api/persons)
+
+## URL de la aplicación completa desplegada (fronted + backend)
+[https://phonebook-ilw7.onrender.com](https://phonebook-ilw7.onrender.com)
 
 ## Endpoints principales
 
