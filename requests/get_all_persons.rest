@@ -1,13 +1,16 @@
-GET https://phonebook-ilw7.onrender.com/api/persons
+GET http://localhost:3001/api/persons 
 
 ###
-GET https://phonebook-ilw7.onrender.com/api/persons/3
+GET http://localhost:3001/info
 
 ###
-DELETE https://phonebook-ilw7.onrender.com/api/persons/418591
+GET http://localhost:3001/api/persons/68ae886d6fde78d90636d255
 
 ###
-POST https://phonebook-ilw7.onrender.com/api/persons
+DELETE http://localhost:3001/api/persons/68ae86ccc4bec79ab46a551a
+
+###
+POST http://localhost:3001/api/persons
 Content-Type: application/json
 
 {
