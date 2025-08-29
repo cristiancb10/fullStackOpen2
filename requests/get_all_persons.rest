@@ -7,7 +7,7 @@ GET http://localhost:3001/info
 GET http://localhost:3001/api/persons/45
 
 ###
-DELETE http://localhost:3001/api/persons/78
+DELETE http://localhost:3001/api/persons/68b13370412f4a3d77734666
 
 ###
 POST http://localhost:3001/api/persons
@@ -16,4 +16,13 @@ Content-Type: application/json
 {
     "name": "maria cala",
     "number": "44-5-89712"
+}
+
+###
+PUT http://localhost:3001/api/persons/68b13632102059a25d3d11a5
+Content-Type: application/json
+
+{
+    "name": "maria cala",
+    "number": "789-45-312"
 }
